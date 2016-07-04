@@ -11,6 +11,7 @@ namespace CaculatorApplication
     static void Main(string[] args)
     {
       var result = MathLib.Math.Add(1, 2);
+      var result2 = MathLib.Math.Mul(2, 3);
       Console.WriteLine("The result is {0}", result);
     }
   }

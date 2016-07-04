@@ -13,5 +13,10 @@ namespace MathLib
         var result = a + b;
         return result ;
       }      
+      public static int Mul(int a , int b)
+      {
+        var result = a * b;
+        return result;
+      }
     }
 }
