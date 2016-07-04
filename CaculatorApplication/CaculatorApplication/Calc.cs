@@ -11,13 +11,9 @@ namespace CaculatorApplication
     /// <summary>
     /// Constructor
     /// </summary>
-    /// <param name="a"></param>
-    /// <param name="b"></param>
-    /// <returns>result </returns>
-    public int Calc(int a , int b)
+    public void Calc()
     {
-      var result = a + b;
-      return result;
+      Console.WriteLine("Calc");
     }
 
   }
