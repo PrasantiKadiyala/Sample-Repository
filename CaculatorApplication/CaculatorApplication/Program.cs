@@ -15,6 +15,7 @@ namespace CaculatorApplication
       var result3 = MathLib.Math.Sub(4, 5);
       Console.WriteLine("The result of addition is {0}", result);
       Console.WriteLine("The result of multiplcation is {0}", result2);
+      Console.WriteLine("The result of subtraction is {0}", result3);
     }
   }
 }
