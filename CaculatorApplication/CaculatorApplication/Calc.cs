@@ -13,7 +13,7 @@ namespace CaculatorApplication
     /// </summary>
     /// <param name="a"></param>
     /// <param name="b"></param>
-    /// <returns></returns>
+    /// <returns>result </returns>
     public int Calc(int a , int b)
     {
       var result = a + b;
