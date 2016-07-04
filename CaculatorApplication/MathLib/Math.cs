@@ -18,7 +18,6 @@ namespace MathLib
       {
         var result = a + b;
         return result ;
-<<<<<<< HEAD
       } 
      
       /// <summary>
@@ -26,10 +25,8 @@ namespace MathLib
       /// </summary>
       /// <param name="a"></param>
       /// <param name="b"></param>
-      /// <returns></returns>
-=======
-      }      
->>>>>>> SampleBranch
+      /// <returns></returns>         
+
       public static int Mul(int a , int b)
       {
         var result = a * b;
