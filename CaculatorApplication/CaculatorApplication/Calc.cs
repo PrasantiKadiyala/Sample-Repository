@@ -8,12 +8,32 @@ namespace CaculatorApplication
 {
   public class Calc
   {
+    public int operand1;
+    public int operand2;
     /// <summary>
     /// Constructor
     /// </summary>
-    public void Calc()
+    public Calc(int a , int b)
     {
-      Console.WriteLine("Calc");
+      operand1 = a;
+      operand2 = b;
+      Console.WriteLine("This is Calc app");
+    }
+    public int Operations()
+    {
+      int result;
+      Console.WriteLine("Please select the opeartor: 1) Add 2) Sub 3) Mult");     
+      var op = Console.Read();
+      switch(op)
+      {
+        case 1: result = MathLib.Math.Add(operand1, operand2);
+          break;
+        case 2: result = MathLib.Math.Sub(operand1, operand2);
+          break;
+        case 3: result = MathLib.Math.Mul(operand1, operand2);
+          break;        
+      }
+      return result;
     }
 
   }

@@ -10,12 +10,9 @@ namespace CaculatorApplication
   {
     static void Main(string[] args)
     {
-      var result = MathLib.Math.Add(1, 2);
-      var result2 = MathLib.Math.Mul(2, 3);
-      var result3 = MathLib.Math.Sub(4, 5);
-      Console.WriteLine("The result of addition is {0}", result);
-      Console.WriteLine("The result of multiplcation is {0}", result2);
-      Console.WriteLine("The result of subtraction is {0}", result3);
+      Calc calculator = new Calc(2, 3);
+      var result = calculator.Operations();
+      Console.WriteLine("The result is :{0}", result);
     }
   }
 }
