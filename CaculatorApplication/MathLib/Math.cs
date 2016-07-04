@@ -8,10 +8,28 @@ namespace MathLib
 {
     public static class Math
     {
+      /// <summary>
+      /// Addition method
+      /// </summary>
+      /// <param name="a"></param>
+      /// <param name="b"></param>
+      /// <returns></returns>
       public static int Add(int a, int b)
       {
         var result = a + b;
         return result ;
-      }      
+      } 
+     
+      /// <summary>
+      ///  Multipication method
+      /// </summary>
+      /// <param name="a"></param>
+      /// <param name="b"></param>
+      /// <returns></returns>
+      public static int Mul(int a , int b)
+      {
+        var result = a * b;
+        return result;
+      }
     }
 }
